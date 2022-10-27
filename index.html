@@ -14,7 +14,7 @@ h1 {
   text-align: center;
 }
 
-div#container {
+#box {
   border: 5px solid black;
   position: relative;
   background-color: gray;
@@ -26,33 +26,10 @@ div#container {
   font-family: Helvetica;
 }
 
-p {
-  border: 5px solid black;
-  padding: 10px;
-  width: 50px;
-  height: 20px;
-  font-family: Helvetica;
-  }
-  
-#p1 { 
-   Background-color: red;
-   position: relative;
-   top: 65px
-   left: 65px
-  }
-     
-#p2 { 
-   Background-color: red;
-   position: relative;
-   top: 65px
-   left: 65px
-  }
-     
-#p3 { 
-   Background-color: red;
-   position: relative;
-   top: 65px
-   left: 65px
+#content {
+  background-color: red;
+  text-align: center;
+  Boarder: 5px;
   }
   
 /* Simple Responsive Framework. */
@@ -151,10 +128,13 @@ p {
 <body>
 <h1>Our Menu</h1>
 
-<div class="row" id="container">
-  <p id="p1" class="col-lg-4 col-md-6"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat.</p></div>
-  <p id="p1" class="col-lg-4 col-md-6"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat.</p></div>
-  <p id="p1" class="col-lg-4 col-md-6"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat.</p></div>
-</div>
-</body>
+<div class="row" id="box">
+  <div id"content" class="col-lg-4 col-md-6">Chicken</div>
+  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat.</p> 
+  <div id"content" class="col-lg-4 col-md-6">Sushi</div>
+  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat.</p> 
+  <div id"content" class="col-lg-4 col-md-6">Chicken</div>
+  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat.</p> 
+ </div>
+ </body>
 </html>
